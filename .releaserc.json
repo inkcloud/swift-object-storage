@@ -8,7 +8,7 @@
     "@semantic-release/npm",
     "@semantic-release/git"
   ],
-  "publish": ["@semantic-release/github", "@semantic-release/github"],
+  "publish": ["@semantic-release/github", "@semantic-release/npm"],
   "repositoryUrl": "https://github.com/inkcloud/swift-object-storage.git",
   "noCi": true
 }
