@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/inkcloud/swift-object-storage/compare/v1.0.1...v1.0.2) (2018-08-02)
+
+
+### Bug Fixes
+
+* **SwiftObjectStorage:** Fix export ([dd7b656](https://github.com/inkcloud/swift-object-storage/commit/dd7b656))
+
 ## [1.0.1](https://github.com/inkcloud/swift-object-storage/compare/v1.0.0...v1.0.1) (2018-08-02)
 
 
