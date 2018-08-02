@@ -7,7 +7,7 @@
 ## Example Usage
 ```javascript
 const config = {
-  objectStorageUrl: objectStorageUrl: 'https://dal05.objectstorage.softlayer.net/auth/v1.0/
+  objectStorageUrl: objectStorageUrl: 'https://dal05.objectstorage.softlayer.net/auth/v1.0/'
 	user: 'username';
 	key: 'key';
 
