@@ -1,0 +1,54 @@
+{
+  "name": "swift-object-storage",
+  "version": "0.0.0-development",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inkcloud/swift-object-storage.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "commit": "git-cz",
+    "docs": "typedoc --theme minimal --hideGenerator --name SwiftObjectStorage --out ./docs src",
+    "release": "semantic-release",
+    "prepublish": "npm run build",
+    "start": "nodemon -e js,json,ts  --exec ./node_modules/.bin/ts-node src/index.ts",
+    "semantic-release": "semantic-release"
+  },
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "node-cache": "^4.2.0",
+    "pump": "^3.0.0",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/git": "^7.0.1",
+    "@semantic-release/github": "^5.0.1",
+    "@types/pump": "^1.0.1",
+    "@types/request": "^2.47.0",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "semantic-release": "^15.9.3",
+    "ts-node": "^6.0.3",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.8.3",
+    "typescript-eslint-parser": "^16.0.0"
+  }
+}

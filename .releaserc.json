@@ -1,0 +1,13 @@
+{
+  "verifyConditions": ["@semantic-release/changelog","@semantic-release/github"],
+  "prepare": [
+    {
+      "path": "@semantic-release/changelog",
+      "changelogFile": "CHANGELOG.md"
+    },
+    "@semantic-release/git"
+  ],
+  "publish": "@semantic-release/github",
+  "repositoryUrl": "https://github.com/inkcloud/workflow-conveyor.git",
+  "noCi": true
+}
